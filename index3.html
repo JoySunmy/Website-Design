@@ -1,0 +1,88 @@
+<html>
+<head>
+<title> JoyBank</title>
+<script>
+function mul()
+{
+    var fValue;
+    var sValue;
+    var fresult;
+    fValue = fn.value;
+    sValue = ln.value;
+    result = fValue * sValue;
+    r.value = result;
+}
+function add()
+{
+    var fValue;
+    var sValue;
+    var fresult;
+    fValue = parseInt(fn.value);
+    sValue = parseInt(ln.value);
+    result = fValue + sValue;
+    r.value = result;
+}
+function div()
+{
+    var fValue;
+    var sValue;
+    var fresult;
+    fValue = fn.value;
+    sValue = ln.value;
+    result = fValue / sValue;
+    r.value = result;
+}
+
+function sub()
+{
+    var fValue;
+    var sValue;
+    var fresult;
+    fValue = fn.value;
+    sValue = ln.value;
+    result = fValue - sValue;
+    r.value = result;
+}
+
+    
+        </script>
+</head>
+<body style="color: black;background:  whitesmoke ;">
+
+<U> <B> <image src= "Banklogo.jpeg" width="100px" height="80"/> <font size="10" style="font-family: Calibri Head, sans-serif;"> JoyBank  </U> <B> </font> 
+<hr> 
+
+<center> <a href="Webpage.html">HOME</a>| <a href="Gallery.html">GALLERY</a>|<a href="Reg.html">REGISTRATION</a>| <a href="Signin.html">SIGN IN</a> | <a href="Tra.html">TRANSACTION</a> | <a href="Aboutus.html">ABOUT US</a> | <a href="Contactus.html">CONTACT US</a>| </center>
+<hr>
+<font size="6"> Open a New Account </font>
+
+<br>
+
+
+                        
+
+
+
+
+<table border="1" align="center" bgcolor="whitesmoke">
+<tr><td colspan="2" align="center" > <font size="4"> Calculator </font> </td></tr> 
+        <tr><td>Firstvalue </td><td> <input type="text" id="fn" /></td></tr>
+                <tr><td>Secondvalue </td><td> <input type="text" id="ln" /></td></tr>
+                    <tr><td>result </td><td> <input type="text" id="r"/> </td></tr>
+                                                <tr><td align="center" colspan="2" rowspan="">
+                                        <button onclick="submitForm()">Submit</button>
+                                        <button onclick="mul()">*</button>
+                                        <button onclick="add()">+</button>
+                                        <button onclick="div()">/</button>
+                                        <button onclick="sub()">-</button>
+                                    </td></tr>
+        
+        
+        
+        
+
+</table>
+
+
+    </body>
+    </html>
